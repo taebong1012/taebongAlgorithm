@@ -110,15 +110,4 @@ public class Main {
             }
         }
     }
-
-    private static int print() {
-        for(int i = 0; i < X; i++) {
-            for(int j = 0; j < Y; j++) {
-                System.out.print(cheeses[i][j] + "\t");
-            }
-            System.out.println();
-        }
-        System.out.println("------------------");
-        return 0;
-    }
 }
