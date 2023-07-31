@@ -13,7 +13,6 @@ public class Main {
 
         int[] indegrees = new int[N+1];  // i번 학생 앞으로 몇 명이 있는지
         ArrayList<Integer>[] list = new ArrayList[N+1]; // i번째 학생을 세우면 어떠한 학생들이 설 수 있는지
-//        Arrays.fill(list, new ArrayList<>());
         for(int i = 1; i < N+1; i++) list[i] = new ArrayList<>();
 
 
